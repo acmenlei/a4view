@@ -1,6 +1,6 @@
 {
   "name": "a4view",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "一款按照A4纸结构进行分页的预览插件",
   "main": "index.js",
   "keywords": [
