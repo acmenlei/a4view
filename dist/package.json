@@ -1,0 +1,14 @@
+{
+  "name": "a4view",
+  "version": "1.0.0",
+  "description": "一款按照A4纸结构进行分页的预览插件",
+  "main": "index.js",
+  "keywords": [
+    "A4分页",
+    "A4-preview",
+    "A4预览"
+  ],
+  "type": "module",
+  "author": "coderlei",
+  "license": "MIT"
+}

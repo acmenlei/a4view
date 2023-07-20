@@ -1,0 +1,24 @@
+{
+  "name": "a4view",
+  "version": "1.0.0",
+  "description": "一款按照A4纸结构进行分页的预览插件",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "A4分页",
+    "A4-preview",
+    "A4预览"
+  ],
+  "type": "module",
+  "author": "coderlei",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.3",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "tslib": "^2.6.0",
+    "vite": "^4.4.4"
+  }
+}
