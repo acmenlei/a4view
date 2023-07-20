@@ -1,4 +1,4 @@
-import A4View from "./index";
+import A4View from "a4view";
 
 new A4View({
   target: document.querySelector(".container") as HTMLElement,

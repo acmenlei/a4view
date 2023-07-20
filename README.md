@@ -4,6 +4,10 @@ If you need a preview of the A4 paging effect, then this plugin is worth a try.
 
 ## How use
 
+```base
+npm install a4view
+```
+
 ```js
 import A4View from "a4view";
 
