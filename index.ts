@@ -23,7 +23,6 @@ function calculateElementHeight(element: HTMLElement) {
 function getElementTop(element: HTMLElement, target: HTMLElement) {
   let actualTop = element.offsetTop;
   let current = element.offsetParent as HTMLElement;
-
   while (current !== target) {
     actualTop += current.offsetTop;
     current = current.offsetParent as HTMLElement;
@@ -197,6 +196,7 @@ export default class A4View {
     }
     this.setBackground(options.background || "white");
     this.setA4Gap(options.pageGap || 10);
+    this.targetContainer.style.position = 'relative'
     // 初始化CSS样式
     initCSS(this.background, this.pageGap);
   }

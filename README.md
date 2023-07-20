@@ -39,6 +39,12 @@ export default class A4View {
 }
 ```
 
+## Example
+1. Clone the repository
+2. Go to the `a4view` folder
+3. `npm install`
+4. `npm run dev`
+
 ## License
 
 MIT © [coderlei](./license)

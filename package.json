@@ -20,5 +20,8 @@
     "@rollup/plugin-typescript": "^11.1.2",
     "tslib": "^2.6.0",
     "vite": "^4.4.4"
+  },
+  "dependencies": {
+    "a4view": "^1.0.0"
   }
 }
